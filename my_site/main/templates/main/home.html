@@ -1,0 +1,241 @@
+{% load static %}
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Supercars</title>
+</head>
+
+<body>
+    {% include "main/includes/navbar.html" %}
+    {% include "main/includes/messages.html" %}
+
+    <script src="{% static 'main/js/script.js' %}" type="text/javascript"></script>
+
+    <div class="slider">
+        <ul class="slides">
+            <li>
+                <img src="{% static 'main/images/car5.jpg' %}">
+                <div class="caption center-align">
+                    <h3>Bugatti Chiron</h3>
+                    <h5 class="light grey-text text-lighten-3">Like Always. Like Never Before</h5>
+                </div>
+            </li>
+            <li>
+                <img src="{% static 'main/images/car1.jpg' %}">
+                <div class="caption left-align">
+                    <h3>Lamborghini Aventador</h3>
+                    <h5 class="light grey-text text-lighten-3">A different kind of company. A different kind of car</h5>
+                </div>
+            </li>
+            <li>
+                <img src="{% static 'main/images/car3.jpg' %}">
+                <div class="caption right-align">
+                    <h3>Aria FXE</h3>
+                    <h5 class="light grey-text text-lighten-3">Committed to be better</h5>
+                </div>
+            </li>
+            <li>
+                <img src="{% static 'main/images/car4.jpg' %}">
+                <div class="caption center-align">
+                    <h3>McLaren GT</h3>
+                    <h5 class="light grey-text text-lighten-3">Power, beauty and soul</h5>
+                </div>
+            </li>
+        </ul>
+    </div>
+
+    <div style="text-align: center;">
+        <h1>Info</h1>
+
+    </div>
+
+    <div style="text-align: center;">
+        <h6>If you have intrest/desire to know more about Supercars, you came at right place.</h6>
+        <h6> &nbsp &nbsp Here you will find information on some of the best Supercars in the world.</h6>
+    </div>
+    <br><br>
+
+
+    <div style="text-align: center;">
+        <h2>Popular Searches</h2>
+    </div>
+    <div style="text-align: center;">
+        <h6>Unsure where to start? Check out some of the most sought-after models here!</h6>
+    </div>
+    <br>
+    <br>
+
+    <div class="row" style="text-align: center;">
+        <div class="col s4  ">
+            <div class="col s10 m9 l8 ">
+                <div class="card medium hoverable" style="width: 150%;">
+                    <div class="card-image">
+                        <img src="{% static 'main/images/l1.jpg' %}">
+                        <span class="card-title">Lamborghini Aventador</span>
+                    </div>
+                    <div class="card-content">
+                        <p>The Lamborghini Aventador has 1 Petrol Engine on offer. The Petrol engine is 6498 cc.
+                            Depending upon the variant and fuel type the
+                            Aventador has a mileage of 5.0-7.69 kmpl. </p>
+                    </div>
+                    <div class="card-action">
+                        <a href="/detail1">Details</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col s4 ">
+            <div class="col s10 m9 l8">
+                <div class="card medium hoverable" style="width: 150%;">
+                    <div class="card-image">
+                        <img src="{% static 'main/images/bu1.jpg' %}">
+                        <span class="card-title">Bugatti Veyron</span>
+                    </div>
+                    <div class="card-content">
+                        <p>The Bugatti Veyron has 1 Petrol Engine on offer. The Petrol engine is 7993 cc . The Veyron is
+                            a 2 seater and has length of 4462mm, width
+                            of 1998mm and a wheelbase of 2710mm.</p>
+                    </div>
+                    <div class="card-action">
+                        <a href="/detail2">Details</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col s4 ">
+            <div class="col s10 m9 l8">
+                <div class="card medium hoverable" style="width: 150%;">
+                    <div class="card-image">
+                        <img src="{% static 'main/images/f1.jpg' %}">
+                        <span class="card-title">Ferrari F8 Tributo</span>
+                    </div>
+                    <div class="card-content">
+                        <p>The price of Ferrari F8 Tributo starts at Rs. 4.02 Cr and goes upto Rs. 4.02 Cr. Ferrari F8
+                            Tributo is offered in 1 variants - the base model of F8 Tributo is V8 Turbo .</p>
+                    </div>
+                    <div class="card-action">
+                        <a href="/detail3">Details</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+
+    <div class="row" style="text-align: center;">
+        <div class="col s4 ">
+            <div class="col s10 m9 l8">
+                <div class="card medium hoverable" style="width: 150%;">
+                    <div class="card-image">
+                        <img src="{% static 'main/images/mc1.jpg' %}">
+                        <span class="card-title">McLaren 720S</span>
+                    </div>
+                    <div class="card-content">
+                        <p>McLaren has great artistry of making majestic supercars and the 720S Coupé is undoubtedly the
+                            supercar par excellence. Each McLaren retains the exclusivity as a powerful sports car.</p>
+                    </div>
+                    <div class="card-action">
+                        <a href="/detail4">Details</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col s4 ">
+            <div class="col s10 m9 l8">
+                <div class="card medium hoverable" style="width: 150%;">
+                    <div class="card-image">
+                        <img src="{% static 'main/images/b1.jpg' %}">
+                        <span class="card-title">BMW Z4</span>
+                    </div>
+                    <div class="card-content">
+                        <p>BMW India has listed the 2019 Z4 on its official website, suggesting its imminent launch. It
+                            is expected to be available in two variants: sDrive20i and the M40i. </p>
+                    </div>
+                    <div class="card-action">
+                        <a href="/detail5">Details</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col s4 ">
+            <div class="col s10 m9 l8">
+                <div class="card medium hoverable" style="width: 150%;">
+                    <div class="card-image">
+                        <img src="{% static 'main/images/m1.jpg' %}">
+                        <span class="card-title">Mercedes-Benz AMG GT</span>
+                    </div>
+                    <div class="card-content">
+                        <p>Mercedes-Benz has launched two variants of the GT in India. These are the Mercedes-AMG GT R
+                            and the GT Roadster. While the former is priced at Rs 2.23 crore, the latter will cost you
+                            Rs 2.19 crore.</p>
+                    </div>
+                    <div class="card-action">
+                        <a href="/detail6">Details</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+
+    <div style="text-align: center; background-color: aqua;">
+        <p>&nbsp;</p>
+        <h3>Helping you with every step of your car shopping.</h3>
+        <p>&nbsp;</p>
+    </div><br>
+    <div style="text-align: center; padding-left: 10%;">
+        <div class="row">
+            <div class=" col s4" style="text-align: center;">
+                <h5> <b> Research what model is best for you.</b></h5> <br>
+                <p> <i> Figure out what models you're interested in and use our tools to narrow the field to
+                        the
+                        model that's perfect for your lifestyle and budget.</i></p>
+            </div>
+            <div class="col s5 ">
+                <img src="{% static 'main/images/find1.jpg' %}" height="50%" width="50%">
+            </div>
+        </div>
+        <br><br>
+
+        <div class="row">
+            <div class="col s5">
+                <img src="{% static 'main/images/find.png' %}" height="50%" width="50%">
+            </div>
+            <div class=" col s4" style="text-align: center;">
+                <h5> <b> Find your perfect dream car. </b></h5>
+                <p><i>Finding your car for the best price means comparing what's out there. Use our
+                        compare tools to find all your dream cars in your area and get quotes on new ones.</i>
+                </p>
+            </div>
+        </div>
+        <br><br>
+    </div>
+
+    <div style="text-align: center;">
+        <h6> <i> To get an email about any updates or any changes <a href="/register"><strong>Register</strong></a>
+                here.</i>
+        </h6>
+    </div>
+    <br>
+
+
+    <div class="col s6" style="text-align:center; background-color: gray;">
+        <br>
+        <span>&copy;2021 Ayush | All rights reserved.</span>
+        <br>
+        <span>Django Project | Made by Ayush Kumar Singh | Supercars</span>
+    </div>
+
+
+</body>
+
+</html>

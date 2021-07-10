@@ -1,0 +1,436 @@
+{% include "main/includes/navbar.html" %}
+{% load static %}
+
+<link rel="stylesheet" href="{% static 'main/css/style.css' %}">
+<script src="{% static 'main/js/script.js' %}" type="text/javascript"></script>
+<link rel="stylesheet" href="{% static 'main/css/materialise.css' %}">
+
+<div>
+    <ul class="tabs tabs-fixed-width tab-demo z-depth-1">
+        <li class="tab"><a class="active" href="#test0">ABOUT</a></li>
+        <li class="tab"><a href="#test1">IMAGES</a></li>
+        <li class="tab"><a href="#test2">SPECS</a></li>
+        <li class="tab"><a href="#test3">PRICE</a></li>
+    </ul>
+
+    <div id="test0" class="col s12">
+
+        <div class="container">
+            <h4>Aventador Latest Update</h4>
+            <p>The Lamborghini Aventador is available in a choice of three variants - the S, S Roadster and the SVJ. All
+                three of these are powered by a 6.5-litre V12 engine, albeit in different states of tune ranging from
+                700PS to 770PS in the most powerful SVJ variant. The torque figure, on the other hand, varies from 690Nm
+                to 720Nm, depending on the variant chosen. The transmission unit is a 7-speed automatic which sends
+                power to all four wheels. Its top speed has been rated at 350kmph.</p>
+        </div>
+
+        <br><br>
+        <div class="container">
+            <h4>Lamborghini Aventador User Reviews</h4>
+
+            <div class="row">
+                <div class="col s6">
+                    <div class="col s12 m7">
+                        <div class="card medium hoverable" style="width: 150%; height: 40%;">
+                            <div class="card-content">
+                                <p><b>The Venti Dream</b></p> <br>
+                                <p>The Aventador is my dream car and one of the most iconic sports car of all time, I
+                                    know that every teenager has a crush on Aventador and I am no exception, will
+                                    definitely own it 1 day. </p>
+                            </div>
+                            <div class="card-action">
+                                <p> By You Tuber</p>
+                                <p><small>On: Jan 31, 2021 | 132 Views</small></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col s6">
+                    <div class="col s12 m7">
+                        <div class="card medium hoverable" style="width: 150%; height: 40%;">
+                            <div class="card-content">
+                                <p><b>Best car in performance.</b></p> <br>
+                                <p>I drove this car which was owned by my friend. When he filled a full gallon, then he
+                                    oned the high-performance mode and the car didn't drive long enough. The styling of
+                                    the car and the comfort is top-notch which can not be compared by any brand. </p>
+                            </div>
+                            <div class="card-action">
+                                <p>By Sravani Appasani</p>
+                                <p><small>On: Mar 09, 2020 | 105 Views</small></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col s6">
+                    <div class="col s12 m7">
+                        <div class="card medium hoverable" style="width: 150%; height: 40%;">
+                            <div class="card-content">
+                                <p><b>What A Nice Car .</b></p> <br>
+                                <p>What a nice car. Considering the price, the car is mid expensive. Very beautiful,
+                                    stylish, comfortable, and performance is very good. The car is a perfect sports car.
+                                </p>
+                            </div>
+                            <div class="card-action">
+                                <p>By Swap</p>
+                                <p><small>On: Sep 27, 2020 | 36 Views</small></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col s6">
+                    <div class="col s12 m7">
+                        <div class="card medium hoverable" style="width: 150%; height: 40%;">
+                            <div class="card-content">
+                                <p><b>Great Car.</b></p> <br>
+                                <p>It's a great car and its looks are also very great. I like this car because it's
+                                    sound is so loud and amazing.
+                                </p>
+                            </div>
+                            <div class="card-action">
+                                <p>By Rajeev Awasthi</p>
+                                <p><small>On: Jan 16, 2020 | 33 Views</small></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+<div id="test1" class="col s12">
+    <div style="background-color: rgb(241, 243, 237);">
+        <div class="container">
+            <img src="{% static 'main/images/lambo1.jpg' %}" height="100%" width="100%">
+        </div>
+
+    </div>
+    <div style="background-color: rgb(241, 243, 237);">
+        <div class="container">
+            <img src="{% static 'main/images/l2.jpg' %}" height="100%" width="100%">
+        </div>
+
+    </div>
+    <div style="background-color: rgb(241, 243, 237);">
+        <div class="container">
+            <img src="{% static 'main/images/l3.jpg' %}" height="100%" width="100%">
+        </div>
+
+    </div>
+    <div style="background-color: rgb(241, 243, 237);">
+        <div class="container">
+            <img src="{% static 'main/images/l4.jpg' %}" height="100%" width="100%">
+        </div>
+    </div>
+
+</div>
+
+<div id="test2" class="col s12">
+    <div class="container">
+        <h4>Aventador Specs, Features and Price</h4>
+        <p>The Lamborghini Aventador has 1 Petrol Engine on offer. The Petrol engine is 6498 cc . It is available with
+            the Automatic transmission. Depending upon the variant and fuel type the Aventador has a mileage of 5.0 to
+            7.69 kmpl. The Aventador is a 2 seater and has length of 4943 mm, width of 2273 mm and a wheelbase of
+            2700mm.</p>
+    </div>
+    <div class="container">
+        <h4>Key Specifications of Lamborghini Aventador</h4>
+        <div class="row">
+
+            <table class="highlight responsive-table ">
+                <tbody>
+                    <tr>
+                        <td>ARAI Mileage</td>
+
+                        <td>7.69 kmpl</td>
+                    </tr>
+                    <tr>
+                        <td>Fuel Type</td>
+
+                        <td>Petrol</td>
+                    </tr>
+                    <tr>
+                        <td>Fuel Tank Capacity</td>
+
+                        <td>90.0</td>
+                    </tr>
+                    <tr>
+                        <td>City Mileage</td>
+
+                        <td>3.22 kmpl</td>
+                    </tr>
+                    <tr>
+                        <td>Engine Displacement (cc)</td>
+
+                        <td>6498</td>
+                    </tr>
+                    <tr>
+                        <td>Max Torque (nm@rpm)</td>
+
+                        <td>720Nm@6750rpm</td>
+                    </tr>
+                    <tr>
+                        <td>TransmissionType</td>
+
+                        <td>Automatic</td>
+                    </tr>
+                    <tr>
+                        <td>Max Power (bhp@rpm)</td>
+
+                        <td>759.01bhp@8500rpm</td>
+                    </tr>
+                    <tr>
+                        <td>Seating Capacity</td>
+
+                        <td>2</td>
+                    </tr>
+                    <tr>
+                        <td>Boot Space (Litres)</td>
+
+                        <td>110</td>
+                    </tr>
+                    <tr>
+                        <td>Body Type</td>
+
+                        <td>Coupe</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <h4>Key Features of Lamborghini Aventador</h4>
+        <div class="row">
+
+            <table class="highlight responsive-table ">
+                <tbody>
+                    <tr>
+                        <td>Power Steering</td>
+
+                        <td>Yes</td>
+                    </tr>
+                    <tr>
+                        <td>Anti Lock Braking System</td>
+
+                        <td>Yes</td>
+                    </tr>
+                    <tr>
+                        <td>Driver Airbag</td>
+
+                        <td>Yes</td>
+                    </tr>
+                    <tr>
+                        <td>Automatic Climate Control</td>
+
+                        <td>Yes</td>
+                    </tr>
+                    <tr>
+                        <td>Multi-function Steering Wheel</td>
+
+                        <td>Yes</td>
+                    </tr>
+                    <tr>
+                        <td>Power Windows Front</td>
+
+                        <td>Yes</td>
+                    </tr>
+                    <tr>
+                        <td>Air Conditioner</td>
+
+                        <td>Yes</td>
+                    </tr>
+                    <tr>
+                        <td>Passenger Airbag</td>
+
+                        <td>Yes</td>
+                    </tr>
+                    <tr>
+                        <td>Alloy Wheels</td>
+
+                        <td>Yes</td>
+                    </tr>
+                </tbody>
+            </table>
+
+        </div>
+    </div>
+    <br><br><br>
+    <div style="text-align: center;">
+        <h6> <i> For more information, <a
+                    href="https://www.cardekho.com/lamborghini/lamborghini-aventador-specifications.htm"
+                    target="_blank"><strong>click here.</strong></a>
+            </i>
+        </h6>
+    </div>
+    <br>
+
+</div>
+
+
+
+<div id="test3" class="col s12">
+    <div class="container">
+        <h4>Lamborghini Aventador price in New Delhi</h4>
+        <p>Lamborghini Aventador price in New Delhi start at ₹ 5.01 Cr. The lowest price model is Lamborghini
+            Aventador S and the most priced model of Lamborghini Aventador SVJ priced at ₹ 6.25 Cr. Visit your nearest
+            Lamborghini Aventador showroom in New Delhi for best offe₹ Compared primarily with Ferrari SF90 Stradale
+            price in New Delhi starting ₹ 7.50 Cr and Ferrari Roma price in New Delhi starting ₹ 3.76 Cr.</p>
+        <br>
+
+        <table class="striped">
+            <thead>
+                <tr>
+                    <th>VARIANTS</th>
+                    <th>ON-ROAD PRICE</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Aventador S Roadster</td>
+                    <td>₹ 6.65 Cr*</td>
+                </tr>
+                <tr>
+                    <td>Aventador S</td>
+                    <td>₹ 5.75 Cr*</td>
+                </tr>
+                <tr>
+                    <td>Aventador SVJ</td>
+                    <td>₹ 7.18 Cr*</td>
+                </tr>
+
+            </tbody>
+
+        </table>
+    </div>
+    <br><br>
+    <div class="container">
+        <h4>Lamborghini Aventador On Road Price in New Delhi</h4>
+        <table class="striped ">
+            <thead>
+                <tr>
+                    <th><b><i><u> S(Petrol) (Base Model)</u></i></b></th>
+
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Ex-Showroom Price</td>
+
+                    <td>₹ 5,01,00,000</td>
+                </tr>
+                <tr>
+                    <td>RTO</td>
+
+                    <td>₹ 50,10,000</td>
+                </tr>
+                <tr>
+                    <td>Insurance</td>
+
+                    <td>₹ 19,60,106</td>
+                </tr>
+                <tr>
+                    <td>Others</td>
+
+                    <td>₹ 5,01,000</td>
+                </tr>
+                <br>
+                <tr>
+                    <td><b> On-Road Price in New Delhi :</b></td>
+
+                    <td>₹ 5,75,71,106*</td>
+                </tr>
+            </tbody>
+        </table>
+        <br><br>
+        <table class="striped ">
+            <thead>
+                <tr>
+                    <th><b><i><u> S Roadster(Petrol)</u></i></b></th>
+
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Ex-Showroom Price</td>
+
+                    <td>₹ 5,79,00,000</td>
+                </tr>
+                <tr>
+                    <td>RTO</td>
+
+                    <td>₹ 57,90,000</td>
+                </tr>
+                <tr>
+                    <td>Insurance</td>
+
+                    <td>₹ 22,60,893</td>
+                </tr>
+                <tr>
+                    <td>Others</td>
+
+                    <td>₹ 5,79,000</td>
+                </tr>
+                <br>
+                <tr>
+                    <td><b> On-Road Price in New Delhi :</b></td>
+
+                    <td>₹ 6,65,29,893*</td>
+                </tr>
+            </tbody>
+        </table>
+        <br><br>
+        <table class="striped ">
+            <thead>
+                <tr>
+                    <th><b><i><u>SVJ(Petrol) (Top Model)</u></i></b></th>
+
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Ex-Showroom Price</td>
+
+                    <td>₹ 6,25,00,000</td>
+                </tr>
+                <tr>
+                    <td>RTO</td>
+
+                    <td>₹ 62,50,000</td>
+                </tr>
+                <tr>
+                    <td>Insurance</td>
+
+                    <td>₹ 24,38,280</td>
+                </tr>
+                <tr>
+                    <td>Others</td>
+
+                    <td>₹ 6,25,000</td>
+                </tr>
+                <br>
+                <tr>
+                    <td><b> On-Road Price in New Delhi :</b></td>
+
+                    <td>₹ 7,18,13,280*</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+
+<div class="col s6" style="position: relative;  bottom: 0%; text-align:center; background-color: gray;">
+    <br>
+    <span>&copy;2021 Ayush | All rights reserved.</span>
+    <br>
+    <span>Django Project | Made by Ayush Kumar Singh | Supercars</span>
+</div>
