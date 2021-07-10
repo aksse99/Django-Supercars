@@ -18,6 +18,7 @@ from django.urls import path, include
 
 from django.views.static import serve
 from django.conf.urls import url
+from my_site.my_site import settings
 
 urlpatterns = [
     path('', include("main.urls")),
