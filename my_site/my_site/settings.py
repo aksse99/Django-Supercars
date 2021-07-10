@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-grw(4c#x9-kn(9v3%6u4&13*wb9vg!*9t^ao&o==hd4@%0^buk
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['127.0.0.1', 'supercars-webapp.herokuapp.com']
+ALLOWED_HOSTS = ['127.0.0.1', 'supercars-web.herokuapp.com']
 
 
 # Application definition
